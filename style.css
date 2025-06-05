@@ -1,0 +1,174 @@
+.background {
+  background-image: url("images/club.jpeg");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  background-color: rgb(127, 140, 170, 0.5);
+  width: 90%;
+  height: 70%;
+  border-radius: 100px;
+  display: flex;
+  gap: 3%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.piano {
+  width: 60%;
+  height: 65%;
+  display: flex;
+  justify-content: center;
+}
+
+.drums {
+  width: 30%;
+  height: 65%;
+  display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 32% 32% 32%;
+    gap: 2%;
+}
+
+.button {
+  border-radius: 40px;
+  border: 2px solid black;
+  font-size: 4rem;
+  font-family: cursive;
+  font-weight: bold;
+  color: rgb(205, 86, 86, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#\36 {
+  background-image: url("images/kick.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#\35 {
+  background-image: url("images/snare.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#\34 {
+  background-image: url("images/hihat.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#\37 {
+  background-image: url("images/crash.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#\33 {
+  background-image: url("images/floortom.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#\31 {
+  background-image: url("images/tom1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#\32 {
+  background-image: url("images/tom2.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#\38 {
+  background-image: url("images/ride.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#\39 {
+  background-image: url("images/splash.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.key {
+  width: 10%;
+  height: 100%;
+  /* padding-top: 320px; */
+  font-size: 1.5rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+.overlay {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  height: 45%;
+  width: 61%;
+  gap: 3%;
+}
+
+.blackkey {
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+.full {
+  flex: 2;
+}
+
+.half {
+  flex: 1;
+}
+
+#empty {
+  opacity: 0;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  background-color: grey;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  background: rgb(127, 140, 170, 0.5);
+  color: white;
+  text-align: center;
+}
+
+.notification {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  color: white;
+  font-family: cursive;
+  font-size: 1.2rem;
+  text-align: center;
+
+}
